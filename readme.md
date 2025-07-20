@@ -77,7 +77,7 @@ streamlit run streamlit_app.py
 
 Make sure you have:
 
-- Python installed (knowledge of OOPs recommended)
+- Python (version >3.10) installed  (knowledge of OOPs recommended)
 
 - AutoGen Framework
 
