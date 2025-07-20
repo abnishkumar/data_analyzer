@@ -1,0 +1,7 @@
+.venv
+.env
+.log
+.txt
+temp
+tmp
+__pycache__

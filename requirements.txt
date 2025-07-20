@@ -1,0 +1,8 @@
+autogen-agentchat # AutoGen AgentChat
+autogen-core # AutoGen Core
+autogen-ext # AutoGen Extensions
+autogen-ext[openai] # AutoGen Extensions with OpenAI support
+python-dotenv # Python Dotenv
+autogen-ext[docker]  # docker
+streamlit
+
