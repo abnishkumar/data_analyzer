@@ -334,7 +334,7 @@ def save_uploaded_file(uploaded_file):
             return None
         SAVE_DIR = WORK_DIR_DOCKER
         if uploaded_file:
-            #os.makedirs(SAVE_DIR, exist_ok=True)
+            os.makedirs(SAVE_DIR, exist_ok=True)
             save_path = os.path.join(SAVE_DIR, uploaded_file.name)
             with open(save_path, "wb") as tmp_file:
                 tmp_file.write(uploaded_file.getbuffer())
